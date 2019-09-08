@@ -28,6 +28,7 @@ Run a server, run a client (stub), add a new method to server for client to call
 
 * this involves updating the .proto layer
 * then compiling the grpc code with `python -m grpc_tools.protoc -I ../protos --python_out=. --grpc_python_out=. ../protos/helloworld.proto`
+* then updating the human written server and client `.py` code.
 
 
 _Notes_
