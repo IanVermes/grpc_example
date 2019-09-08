@@ -1,3 +1,7 @@
+# PROJECT IGNORES
+# We ignore the grpc cloned repo from https://github.com/grpc/grpc
+grpc/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
