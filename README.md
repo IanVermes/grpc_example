@@ -17,4 +17,6 @@ Run a server, run a client (stub), add a new method to server for client to call
 _Notes_<br>
 * The imported modules `helloworld_pb2` and `helloworld_pb2_grpc` are auto-generated code.
 * `helloworld_pb2.py` seems to be formal python configurations definitions of the .proto
+    * `*_pb2.py` contains generated _request_ and _response_ classes
 * `helloworld_pb2_grpc.py` seems to be Python code (classes/funcs)
+    * `*_pb2_grpc.py` contains generated _client_ and _server_ classes
